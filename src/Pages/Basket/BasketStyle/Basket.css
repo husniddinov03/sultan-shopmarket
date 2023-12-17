@@ -1,0 +1,125 @@
+.comBask {
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.comBask .com-basket-h1 {
+  width: 670px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #111111;
+}
+.comBask .commodity-box-basket {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-top: 1px dashed #3F4E65;
+  border-bottom: 1px dashed #3F4E65;
+  padding: 30px 0;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.comBask .commodity-box-basket .commodity-img-basket {
+  width: 283px;
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+}
+.comBask .commodity-box-basket .commodity-img-basket img:hover {
+  transform: scale(105%);
+}
+.comBask .commodity-box-basket .commodity-weight-basket img {
+  width: 9px;
+  height: 15px;
+}
+.comBask .commodity-box-basket .commodity-weight-basket p {
+  width: 400px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #3F4E65;
+  margin-top: 10px;
+}
+.comBask .commodity-box-basket .commodity-weight-basket i {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3F4E65;
+}
+.comBask .commodity-box-basket .addComBasket {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+  border: 1px solid #3F4E65;
+  border-top: none;
+  border-bottom: none;
+}
+.comBask .commodity-box-basket .addComBasket button {
+  width: 34px;
+  height: 23px;
+  border-radius: 1000px;
+  border: none;
+  font-size: 12px;
+  font-weight: 300;
+  color: #3F4E65;
+  background: linear-gradient(rgba(255, 198, 80, 0.3019607843), rgba(254, 202, 110, 0.3019607843));
+}
+.comBask .commodity-box-basket .addComBasket button:hover {
+  background: linear-gradient(#FFC650, #FECA6E);
+}
+.comBask .commodity-box-basket .commodity-bottom-basket {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  align-items: center;
+}
+.comBask .commodity-box-basket .commodity-bottom-basket strong {
+  font-size: 30px;
+  font-weight: 550;
+  font-style: 16px;
+  color: #111111;
+}
+.comBask .commodity-box-basket .commodity-bottom-basket button {
+  width: 59px;
+  height: 59px;
+  border-radius: 70px;
+  border: none;
+  background: #FFC85E;
+}
+.comBask .commodity-box-basket .commodity-bottom-basket button:hover {
+  background-color: #F3A50D;
+}
+.comBask .commodity-box-basket .com-link-box-basket {
+  margin-top: 40px;
+  text-align: center;
+}
+.comBask .commodity-box-basket .com-link-box-basket .com-link-basket {
+  text-align: center;
+  font-size: 30px;
+  padding: 7px 23px;
+}
+.comBask .com-basket-bottom {
+  margin: 60px auto 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.comBask .com-basket-bottom button {
+  width: 190px;
+  height: 57px;
+  background: #FFC85E;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 79px;
+  border: none;
+}
+.comBask .com-basket-bottom button:hover {
+  background: linear-gradient(rgba(255, 197, 80, 0.631372549), rgba(254, 201, 110, 0.4901960784));
+}
+.comBask .com-basket-bottom button:active {
+  background: #FFC85E;
+}
+.comBask .com-basket-bottom h1 {
+  width: 154px;
+  text-align: center;
+}/*# sourceMappingURL=Basket.css.map */

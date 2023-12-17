@@ -1,0 +1,131 @@
+.d-none {
+  display: none;
+}
+
+.catalog-head .catalog {
+  width: 100%;
+  border-top: 1px solid rgba(63, 78, 101, 0.1607843137);
+  background: #FFFFFF;
+  padding-top: 37px;
+  top: 0;
+}
+.catalog-head .catalog .container .catalog-box {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-head .catalog .container .catalog-box .catalog-buttons {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.catalog-head .catalog .container .catalog-box .catalog-buttons button {
+  width: 260px;
+  height: 55px;
+  border-radius: 36px;
+  border: 1px solid #FFC85E;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+}
+.catalog-head .catalog .container .catalog-box .catalog-buttons button:hover {
+  color: #FFFFFF;
+  background: #FFC85E;
+}
+.catalog-head .catalog .container .catalog-box .catalog-buttons .buttonActive {
+  color: #FFFFFF;
+  background: #FFC85E;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items {
+  width: 74%;
+  display: flex;
+  flex-direction: column;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .catalog-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .catalog-item .catalog-head-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 15px;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .catalog-item li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3F4E65;
+  line-height: 31px;
+  cursor: pointer;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .catalog-item li:hover {
+  color: #FFC85E;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .cat-item-ul1 {
+  padding-bottom: 20px;
+}
+.catalog-head .catalog .container .catalog-box .catalog-items .cat-item-ul2 ul {
+  padding-top: 20px;
+  border-top: 1px solid rgba(63, 78, 101, 0.1607843137);
+}
+@keyframes bottomIcon {
+  0% {
+    opacity: 0.1;
+  }
+  10% {
+    opacity: 0.1;
+    transform: translateY(-1px);
+  }
+  20% {
+    opacity: 0.2;
+    transform: translateY(-2px);
+  }
+  30% {
+    opacity: 0.3;
+    transform: translateY(-3px);
+  }
+  40% {
+    opacity: 0.4;
+    transform: translateY(-4px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  60% {
+    opacity: 0.6;
+    transform: translateY(-6px);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateY(-7px);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(-8px);
+  }
+  90% {
+    opacity: 0.9;
+    transform: translateY(-9px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}
+.catalog-head .catalog .icon-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.catalog-head .catalog .icon-bottom button {
+  border: 0;
+  background: transparent;
+}
+.catalog-head .catalog .icon-bottom .iconBottom {
+  margin: 10px;
+  animation: bottomIcon 2s linear infinite;
+}/*# sourceMappingURL=Catalog.css.map */

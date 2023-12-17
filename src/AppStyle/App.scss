@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+@mixin w-h($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin text ($size, $weight, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-usual {
+    background: #FFC85E;
+    border-radius: 79px;
+    border: none;
+    color: #FFFFFF;
+
+    &:hover {
+        background: #F3A50D;
+        cursor: pointer;
+    }
+
+    &:active {
+        background: #FFC85E;
+    }
+}
+
+.button-pray-list {
+    width: 190px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.d-none{
+    display: none;
+}

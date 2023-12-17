@@ -1,0 +1,98 @@
+.banner {
+  width: 100%;
+  height: 790px;
+  background-image: url(./BannerImg/banner.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner .banner-shadow {
+  width: 900px;
+  height: 790px;
+  background: linear-gradient(90deg, #8a94ab, rgba(138, 148, 171, 0.1607843137));
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.banner .container .banner-box {
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner .container .banner-box .button-usual {
+  width: 300px;
+  height: 95px;
+}
+.banner .container .banner-box .banner-box-text {
+  width: 580px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.banner .container .banner-box .banner-box-text h1,
+.banner .container .banner-box .banner-box-text h3,
+.banner .container .banner-box .banner-box-text button {
+  position: absolute;
+  z-index: 2;
+  color: #FFFFFF;
+  bottom: 0;
+}
+.banner .container .banner-box .banner-box-text h1 {
+  width: 570px;
+  height: 200px;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 90px;
+  color: #FFFFFF;
+  top: 0;
+}
+.banner .container .banner-box .banner-box-text h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #FFFFFF;
+  top: 280px;
+}
+.banner .container .banner-box .banner-items {
+  width: 650px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.banner .container .banner-box .banner-items .ban-i1 {
+  left: 0;
+  bottom: 0;
+}
+.banner .container .banner-box .banner-items .ban-i2 {
+  right: 0;
+  bottom: 0;
+}
+.banner .container .banner-box .banner-items .banner-item {
+  display: flex;
+  align-items: end;
+  gap: 15px;
+  position: absolute;
+  z-index: 11;
+}
+.banner .container .banner-box .banner-items .banner-item button {
+  width: 39px;
+  height: 39px;
+  background: #FFC856;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 0;
+  color: #FFFFFF;
+}
+.banner .container .banner-box .banner-items .banner-item h3 {
+  font-weight: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.banner .container .banner-box .banner-items .banner-item h3 b {
+  font-weight: 700;
+}/*# sourceMappingURL=Banner.css.map */

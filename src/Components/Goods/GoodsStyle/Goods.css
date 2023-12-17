@@ -1,0 +1,18 @@
+.goods .commodity {
+  margin-top: 70px;
+}
+.goods .commodity h1 {
+  color: #FFC85E;
+  font-size: 40px;
+  font-weight: 800;
+}
+.goods .commodity h1 span {
+  color: #111111;
+  font-weight: 500;
+}
+.goods .commodity .no-commodity {
+  color: red;
+}
+.goods .d-none {
+  display: none;
+}/*# sourceMappingURL=Goods.css.map */

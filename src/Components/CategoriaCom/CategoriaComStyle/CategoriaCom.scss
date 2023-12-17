@@ -1,0 +1,61 @@
+@mixin text ($size, $weight, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+.CatCom {
+    margin-top: 120px;
+
+    h1 {
+        @include text(40px, 500, #111111);
+
+        span {
+            @include text(40px, 800, #FFC85E);
+        }
+    }
+
+    p {
+        margin-top: 10px;
+        @include text(20px, 300, #3F4E65);
+    }
+
+    .cat-com-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .cat-com-item {
+            width: 280px;
+            // border: 2px solid;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            img{
+                width: 100%;
+            }
+
+
+
+            .cat-com-image {
+                height: 280px;
+                background: #F9F6F2;
+                border-radius: 20px;
+                display: flex;
+                align-items: end;
+
+                &:hover{
+                    background: #EFEADF;
+                    cursor: pointer;
+                }
+            }
+
+            b {
+                @include text(16px, 500, #111111);
+            }
+        }
+    }
+}

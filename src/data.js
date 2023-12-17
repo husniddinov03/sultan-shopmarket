@@ -1,0 +1,108 @@
+const data = [
+    {
+        id: 1,
+        url: "./img1.png",
+        viss: "450 мл",
+        title: "AOS Ср-во для мытья посуды Апельсин+мята",
+        code: 4604049097548,
+        brend: "AOS",
+        Manufacturer: "Нэфис",
+        popular: true,
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 2,
+        url: "./img2.png",
+        viss: "450 мл",
+        title: "AOS средство для мытья посуды Crystal",
+        code: 4604049097548,
+        Manufacturer: "Нэфис",
+        popular: true,
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 3,
+        url: "./img3.png",
+        viss: "15X28.8 г    ",
+        title: "ARIEL Автмат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
+        code: 4604049097548,
+        Manufacturer: "Нэфис",
+        popular: true,
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 4,
+        url: "./img4.png",
+        viss: "1500 г",
+        title: "BIMAX Порошок стиральный Автомат 100 пятен COMPACT",
+        code: 4604049097548,
+        Manufacturer: "Нэфис",
+        popular: true,
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 5,
+        url: "./img1.png",
+        viss: "450 мл",
+        title: "AOS Ср-во для мытья посуды Апельсин+мята",
+        code: 4604049097548,
+        popular: true,
+        Manufacturer: "Нэфис",
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 6,
+        url: "./img2.png",
+        viss: "450 мл",
+        title: "AOS Ср-во для мытья посуды Апельсин+мята",
+        code: 4604049097548,
+        popular: true,
+        Manufacturer: "Нэфис",
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 7,
+        url: "./img3.png",
+        viss: "15X28.8 г",
+        title: "ARIEL Автмат Гель СМС жидкое  в растворимых капсулах Liquid Capsules Горный родник",
+        code: 4604049097548,
+        popular: true,
+        Manufacturer: "Нэфис",
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+    {
+        id: 7,
+        url: "./img4.png",
+        viss: "1500 г",
+        title: "BIMAX Порошок стиральный Автомат 100 пятен COMPACT",
+        code: 4604049097548,
+        popular: true,
+        Manufacturer: "Нэфис",
+        brend: "AOS",
+        coin: `48,76 ₸`,
+        Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed dolor minima veniam laborum doloremque dolorum eaque officiis voluptates, nam aut necessitatibus tempore debitis esse minus pariatur temporibus labore laudantium distinctio? Qui perspiciatis placeat cum dignissimos explicabo? Hic sapiente culpa perspiciatis suscipit, magni numquam!",
+        Characteristics: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim neque aliquid iure est velit rem voluptatum facilis eum excepturi vitae cumque reprehenderit porro repellendus!"
+    },
+]
+
+export default data

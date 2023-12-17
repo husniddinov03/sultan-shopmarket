@@ -1,0 +1,150 @@
+$textColor: #111111;
+
+@mixin text($size, $weight, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin w_h($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.commodity-id {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+    .com-card-img {
+        width: 500px;
+        border-radius: 40px;
+    }
+
+    .com-card-text {
+        width: 50%;
+        padding: 30px 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        p {
+            @include text(14px, 500, #1FD85D);
+            line-height: 18px;
+        }
+
+        h3 {
+            @include text(30px, 400, $textColor);
+
+            span {
+                @include text(30px, 800, $textColor);
+            }
+        }
+
+        .com-card-weight {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+
+            img {
+                @include w_h(20px, 16px);
+            }
+
+            i {
+                @include text(12px, 400, #3F4E65);
+                line-height: 15px;
+            }
+        }
+
+        .com-card-price {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+            h2 {
+                @include text(30px, 800, $textColor);
+                line-height: 39px;
+            }
+
+            .com-card-count {
+                gap: 13px;
+
+                button {
+                    @include text(12px, 300, #3F4E65);
+                    width: 34px;
+                    height: 23px;
+                    border-radius: 1000px;
+                    border: none;
+                    background: linear-gradient(#FFC6504D, #FECA6E4D);
+
+                    &:hover {
+                        background: linear-gradient(#FFC650, #FECA6E);
+                    }
+
+                    &:active {
+                        background: linear-gradient(#FFC6504D, #FECA6E4D);
+                    }
+                }
+
+                b {
+                    @include text(14px, 500, #3F4E65);
+                }
+            }
+
+            button {
+                @include text(14px, 700, #FFFFFF);
+                width: 184px;
+                height: 54px;
+                display: flex;
+                justify-content: center;
+                gap: 5px;
+                align-items: center;
+
+                img {
+                    @include w_h(23px, 23px);
+                }
+            }
+        }
+
+        .com-card-actions {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+
+            button {
+                border: none;
+                box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+                background: #FFFFFF;
+                border-radius: 10px;
+                height: 77px;
+                gap: 5px;
+                box-shadow: 0 0 10px;
+            }
+
+            p {
+                @include text(12px, 400, #3F4E65);
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            b {
+                @include text(14px, 700, #3F4E65);
+            }
+        }
+
+        .com-card-list {
+            p {
+                @include text(14px, 300, #3F4E65);
+                line-height: 21px;
+
+                b {
+                    @include text(14px, 500, $textColor);
+                }
+            }
+        }
+    }
+}

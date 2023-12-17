@@ -1,0 +1,21 @@
+.Brends {
+  width: 80%;
+  margin-bottom: 50px;
+}
+.Brends h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #FFC85E;
+  text-transform: uppercase;
+}
+.Brends h2 span {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+}
+.Brends p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #3F4E65;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=Brends.css.map */

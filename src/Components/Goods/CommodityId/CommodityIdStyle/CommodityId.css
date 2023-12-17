@@ -1,0 +1,132 @@
+.commodity-id {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+.commodity-id .com-card-img {
+  width: 500px;
+  border: 2px solid;
+}
+.commodity-id .com-card-text {
+  padding: 30px 0 0 20px;
+}
+.commodity-id .com-card-text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1FD85D;
+  line-height: 18px;
+}
+.commodity-id .com-card-text h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #111111;
+}
+.commodity-id .com-card-text h3 span {
+  font-size: 30px;
+  font-weight: 800;
+  color: #111111;
+}
+.commodity-id .com-card-text .com-card-weight {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.commodity-id .com-card-text .com-card-weight img {
+  width: 20px;
+  height: 16px;
+}
+.commodity-id .com-card-text .com-card-weight i {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3F4E65;
+  line-height: 15px;
+}
+.commodity-id .com-card-text .com-card-price {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.commodity-id .com-card-text .com-card-price h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #111111;
+  line-height: 39px;
+}
+.commodity-id .com-card-text .com-card-price .com-card-count {
+  gap: 13px;
+}
+.commodity-id .com-card-text .com-card-price .com-card-count button {
+  font-size: 12px;
+  font-weight: 300;
+  color: #3F4E65;
+  width: 34px;
+  height: 23px;
+  border-radius: 1000px;
+  border: none;
+  background: linear-gradient(rgba(255, 198, 80, 0.3019607843), rgba(254, 202, 110, 0.3019607843));
+}
+.commodity-id .com-card-text .com-card-price .com-card-count button:hover {
+  background: linear-gradient(#FFC650, #FECA6E);
+}
+.commodity-id .com-card-text .com-card-price .com-card-count button:active {
+  background: linear-gradient(rgba(255, 198, 80, 0.3019607843), rgba(254, 202, 110, 0.3019607843));
+}
+.commodity-id .com-card-text .com-card-price .com-card-count b {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3F4E65;
+}
+.commodity-id .com-card-text .com-card-price button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 184px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+.commodity-id .com-card-text .com-card-price button img {
+  width: 23px;
+  height: 23px;
+}
+.commodity-id .com-card-text .com-card-actions {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.commodity-id .com-card-text .com-card-actions button {
+  border: none;
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+  background: #FFFFFF;
+  border-radius: 10px;
+  height: 77px;
+  gap: 5px;
+  box-shadow: 0 0 10px;
+}
+.commodity-id .com-card-text .com-card-actions p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3F4E65;
+}
+.commodity-id .com-card-text .com-card-actions p span {
+  font-weight: 700;
+}
+.commodity-id .com-card-text .com-card-actions b {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3F4E65;
+}
+.commodity-id .com-card-text .com-card-list p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3F4E65;
+  line-height: 21px;
+}
+.commodity-id .com-card-text .com-card-list p b {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+}/*# sourceMappingURL=CommodityId.css.map */

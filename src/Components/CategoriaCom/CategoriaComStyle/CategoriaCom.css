@@ -1,0 +1,51 @@
+.CatCom {
+  margin-top: 120px;
+}
+.CatCom h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+}
+.CatCom h1 span {
+  font-size: 40px;
+  font-weight: 800;
+  color: #FFC85E;
+}
+.CatCom p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3F4E65;
+}
+.CatCom .cat-com-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.CatCom .cat-com-box .cat-com-item {
+  width: 280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.CatCom .cat-com-box .cat-com-item img {
+  width: 100%;
+}
+.CatCom .cat-com-box .cat-com-item .cat-com-image {
+  height: 280px;
+  background: #F9F6F2;
+  border-radius: 20px;
+  display: flex;
+  align-items: end;
+}
+.CatCom .cat-com-box .cat-com-item .cat-com-image:hover {
+  background: #EFEADF;
+  cursor: pointer;
+}
+.CatCom .cat-com-box .cat-com-item b {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+}/*# sourceMappingURL=CategoriaCom.css.map */

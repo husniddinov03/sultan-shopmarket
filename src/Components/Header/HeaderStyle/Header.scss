@@ -1,0 +1,197 @@
+nav {
+
+    .nav-top {
+        border-bottom: 1px solid #3f4e6529;
+
+
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            .nav-box {
+                width: 45%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .d-none{
+                    display: none;
+                }
+
+                li {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #3F4E65;
+
+                    &:hover {
+                        color: #F3A50D;
+                        cursor: pointer;
+                    }
+                }
+
+                .NI1 {
+                    width: 270px;
+                }
+
+                .NI2 {
+                    width: 205px;
+                }
+
+                .nav-item {
+                    height: 61px;
+                    display: flex;
+                    // gap: 1px;
+                    justify-content: space-between;
+                    align-items: center;
+                    // border: 2px solid;
+
+
+
+                    img {
+                        // margin-right: 10px;
+                        width: 25px;
+                        height: 25px;
+                        // border: 2px solid;
+                    }
+
+
+                    h1 {
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: #111111;
+
+                        p {
+                            font-weight: 300;
+                            color: #3F4E65;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 7px;
+
+        .nav-bottom-item {
+            width: 49%;
+            height: 96px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .site-logo {
+                width: 156px;
+                height: 66px;
+            }
+
+            button {
+                width: 190px;
+                height: 59px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #FFFFFF;
+            }
+
+            input {
+                width: 260px;
+                border-radius: 36px;
+                height: 59px;
+                background: #EDEDED;
+                border: none;
+                padding: 10px 13px;
+                outline: 0;
+                font-weight: 400;
+                color: #5C6370;
+                font-size: 12px;
+            }
+
+            .nav-bottom-i-b {
+                height: 92px;
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                // border: 2px solid;
+                align-items: center;
+
+                img {
+                    width: 70px;
+                    height: 90px;
+                }
+
+                .nav-bottom-i-text {
+                    text-align: right;
+
+                    b {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #111111;
+                        line-height: 21px;
+                    }
+
+                    p {
+                        font-style: 12px;
+                        font-weight: 300;
+                        color: #3F4E65;
+                        line-height: 18px;
+                    }
+
+                    a {
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: #3F4E65;
+                        text-decoration: underline;
+                        line-height: 15px;
+
+                        &:hover {
+                            color: #F3A50D;
+                        }
+                    }
+                }
+            }
+
+            .nav-basket-box {
+                display: flex;
+                // border: 2px solid;
+                gap: 20px;
+                position: relative;
+
+                span {
+                    width: 22px;
+                    position: absolute;
+                    height: 22px;
+                    top: 0;
+                    left: 31px;
+                    display: flex;
+                    border: 2px solid;
+                    border-radius: 50%;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #FFFFFF;
+                    background: #FFC85E;
+                }
+
+                .nav-basket-coin {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                button {
+                    width: 46px;
+                    height: 46px;
+                    background-color: transparent;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
